@@ -23,8 +23,8 @@
 
 /* Begin PBXFileReference section */
 		B82A9CA81BFA5B5D00C736D4 /* white-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-background.png"; sourceTree = "<group>"; };
-		B82A9CAB1BFA676F00C736D4 /* EmployeeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeListTableViewController.h; sourceTree = "<group>"; };
-		B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeListTableViewController.m; sourceTree = "<group>"; };
+		B82A9CAB1BFA676F00C736D4 /* EmployeeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeListTableViewController.h; path = ../EmployeeListTableViewController.h; sourceTree = "<group>"; };
+		B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeListTableViewController.m; path = ../EmployeeListTableViewController.m; sourceTree = "<group>"; };
 		B82A9CAE1BFA7A2A00C736D4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		B885F8B81BFA4D7500F89335 /* IBMEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBMEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B885F8BC1BFA4D7600F89335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,8 +55,6 @@
 		B885F8AF1BFA4D7500F89335 = {
 			isa = PBXGroup;
 			children = (
-				B82A9CAB1BFA676F00C736D4 /* EmployeeListTableViewController.h */,
-				B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */,
 				B885F8BA1BFA4D7500F89335 /* IBMEmployee */,
 				B885F8B91BFA4D7500F89335 /* Products */,
 			);
@@ -73,6 +71,8 @@
 		B885F8BA1BFA4D7500F89335 /* IBMEmployee */ = {
 			isa = PBXGroup;
 			children = (
+				B82A9CAB1BFA676F00C736D4 /* EmployeeListTableViewController.h */,
+				B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */,
 				B885F8D71BFA510000F89335 /* login-ibm-watson.png */,
 				B885F8BE1BFA4D7600F89335 /* AppDelegate.h */,
 				B885F8BF1BFA4D7600F89335 /* AppDelegate.m */,
