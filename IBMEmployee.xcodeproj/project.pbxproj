@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82A9CA91BFA5B5D00C736D4 /* white-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B82A9CA81BFA5B5D00C736D4 /* white-background.png */; settings = {ASSET_TAGS = (); }; };
+		B82A9CAD1BFA676F00C736D4 /* EmployeeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B82A9CAF1BFA7A2A00C736D4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B82A9CAE1BFA7A2A00C736D4 /* data.json */; settings = {ASSET_TAGS = (); }; };
 		B885F8BD1BFA4D7600F89335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8BC1BFA4D7600F89335 /* main.m */; };
 		B885F8C01BFA4D7600F89335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8BF1BFA4D7600F89335 /* AppDelegate.m */; };
 		B885F8C31BFA4D7600F89335 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8C21BFA4D7600F89335 /* ViewController.m */; };
@@ -14,9 +17,15 @@
 		B885F8C91BFA4D7600F89335 /* IBMEmployee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B885F8C71BFA4D7600F89335 /* IBMEmployee.xcdatamodeld */; };
 		B885F8CB1BFA4D7600F89335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B885F8CA1BFA4D7600F89335 /* Assets.xcassets */; };
 		B885F8CE1BFA4D7600F89335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B885F8CC1BFA4D7600F89335 /* LaunchScreen.storyboard */; };
+		B885F8D61BFA4F1B00F89335 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = B885F8D51BFA4F1B00F89335 /* splash.png */; settings = {ASSET_TAGS = (); }; };
+		B885F8D81BFA510000F89335 /* login-ibm-watson.png in Resources */ = {isa = PBXBuildFile; fileRef = B885F8D71BFA510000F89335 /* login-ibm-watson.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B82A9CA81BFA5B5D00C736D4 /* white-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-background.png"; sourceTree = "<group>"; };
+		B82A9CAB1BFA676F00C736D4 /* EmployeeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeListTableViewController.h; sourceTree = "<group>"; };
+		B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeListTableViewController.m; sourceTree = "<group>"; };
+		B82A9CAE1BFA7A2A00C736D4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		B885F8B81BFA4D7500F89335 /* IBMEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBMEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B885F8BC1BFA4D7600F89335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B885F8BE1BFA4D7600F89335 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +37,8 @@
 		B885F8CA1BFA4D7600F89335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B885F8CD1BFA4D7600F89335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B885F8CF1BFA4D7600F89335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B885F8D51BFA4F1B00F89335 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		B885F8D71BFA510000F89335 /* login-ibm-watson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-ibm-watson.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +55,8 @@
 		B885F8AF1BFA4D7500F89335 = {
 			isa = PBXGroup;
 			children = (
+				B82A9CAB1BFA676F00C736D4 /* EmployeeListTableViewController.h */,
+				B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */,
 				B885F8BA1BFA4D7500F89335 /* IBMEmployee */,
 				B885F8B91BFA4D7500F89335 /* Products */,
 			);
@@ -60,16 +73,19 @@
 		B885F8BA1BFA4D7500F89335 /* IBMEmployee */ = {
 			isa = PBXGroup;
 			children = (
+				B885F8D71BFA510000F89335 /* login-ibm-watson.png */,
 				B885F8BE1BFA4D7600F89335 /* AppDelegate.h */,
 				B885F8BF1BFA4D7600F89335 /* AppDelegate.m */,
 				B885F8C11BFA4D7600F89335 /* ViewController.h */,
 				B885F8C21BFA4D7600F89335 /* ViewController.m */,
 				B885F8C41BFA4D7600F89335 /* Main.storyboard */,
+				B82A9CA81BFA5B5D00C736D4 /* white-background.png */,
 				B885F8CA1BFA4D7600F89335 /* Assets.xcassets */,
 				B885F8CC1BFA4D7600F89335 /* LaunchScreen.storyboard */,
 				B885F8CF1BFA4D7600F89335 /* Info.plist */,
 				B885F8C71BFA4D7600F89335 /* IBMEmployee.xcdatamodeld */,
 				B885F8BB1BFA4D7600F89335 /* Supporting Files */,
+				B82A9CAE1BFA7A2A00C736D4 /* data.json */,
 			);
 			path = IBMEmployee;
 			sourceTree = "<group>";
@@ -77,6 +93,7 @@
 		B885F8BB1BFA4D7600F89335 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B885F8D51BFA4F1B00F89335 /* splash.png */,
 				B885F8BC1BFA4D7600F89335 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,6 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B885F8D61BFA4F1B00F89335 /* splash.png in Resources */,
+				B82A9CAF1BFA7A2A00C736D4 /* data.json in Resources */,
+				B82A9CA91BFA5B5D00C736D4 /* white-background.png in Resources */,
+				B885F8D81BFA510000F89335 /* login-ibm-watson.png in Resources */,
 				B885F8CE1BFA4D7600F89335 /* LaunchScreen.storyboard in Resources */,
 				B885F8CB1BFA4D7600F89335 /* Assets.xcassets in Resources */,
 				B885F8C61BFA4D7600F89335 /* Main.storyboard in Resources */,
@@ -152,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82A9CAD1BFA676F00C736D4 /* EmployeeListTableViewController.m in Sources */,
 				B885F8C91BFA4D7600F89335 /* IBMEmployee.xcdatamodeld in Sources */,
 				B885F8C31BFA4D7600F89335 /* ViewController.m in Sources */,
 				B885F8C01BFA4D7600F89335 /* AppDelegate.m in Sources */,
@@ -302,6 +324,7 @@
 				B885F8D41BFA4D7600F89335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
