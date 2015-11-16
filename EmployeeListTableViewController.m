@@ -73,16 +73,12 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"@employeeCell"forIndexPath:indexPath];
     
     static NSString *CellIdentifier = @"employeeCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     id keyValuePair =self.employees[indexPath.row];
     
-    //cell.textLabel.text = keyValuePair[@"first_name"];
-    //cell.detailTextLabel.text=[NSString stringWithFormat:@"ID: %@", keyValuePair[@"number"]];
-
     UILabel *employeeName = (UILabel *)[cell viewWithTag:1001];
     NSString *fullName = [keyValuePair[@"first_name"] stringByAppendingString: @" "];
     
