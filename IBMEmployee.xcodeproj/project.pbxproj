@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B82A9CA91BFA5B5D00C736D4 /* white-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B82A9CA81BFA5B5D00C736D4 /* white-background.png */; settings = {ASSET_TAGS = (); }; };
-		B82A9CAD1BFA676F00C736D4 /* EmployeeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B82A9CAF1BFA7A2A00C736D4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B82A9CAE1BFA7A2A00C736D4 /* data.json */; settings = {ASSET_TAGS = (); }; };
+		B82A9CB21BFA911100C736D4 /* EmployeeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A9CB11BFA911100C736D4 /* EmployeeListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B885F8BD1BFA4D7600F89335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8BC1BFA4D7600F89335 /* main.m */; };
 		B885F8C01BFA4D7600F89335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8BF1BFA4D7600F89335 /* AppDelegate.m */; };
 		B885F8C31BFA4D7600F89335 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8C21BFA4D7600F89335 /* ViewController.m */; };
@@ -23,9 +23,9 @@
 
 /* Begin PBXFileReference section */
 		B82A9CA81BFA5B5D00C736D4 /* white-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-background.png"; sourceTree = "<group>"; };
-		B82A9CAB1BFA676F00C736D4 /* EmployeeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeListTableViewController.h; path = ../EmployeeListTableViewController.h; sourceTree = "<group>"; };
-		B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeListTableViewController.m; path = ../EmployeeListTableViewController.m; sourceTree = "<group>"; };
 		B82A9CAE1BFA7A2A00C736D4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B82A9CB01BFA911100C736D4 /* EmployeeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeListTableViewController.h; sourceTree = "<group>"; };
+		B82A9CB11BFA911100C736D4 /* EmployeeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeListTableViewController.m; sourceTree = "<group>"; };
 		B885F8B81BFA4D7500F89335 /* IBMEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBMEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B885F8BC1BFA4D7600F89335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B885F8BE1BFA4D7600F89335 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,8 +71,8 @@
 		B885F8BA1BFA4D7500F89335 /* IBMEmployee */ = {
 			isa = PBXGroup;
 			children = (
-				B82A9CAB1BFA676F00C736D4 /* EmployeeListTableViewController.h */,
-				B82A9CAC1BFA676F00C736D4 /* EmployeeListTableViewController.m */,
+				B82A9CB01BFA911100C736D4 /* EmployeeListTableViewController.h */,
+				B82A9CB11BFA911100C736D4 /* EmployeeListTableViewController.m */,
 				B885F8D71BFA510000F89335 /* login-ibm-watson.png */,
 				B885F8BE1BFA4D7600F89335 /* AppDelegate.h */,
 				B885F8BF1BFA4D7600F89335 /* AppDelegate.m */,
@@ -173,11 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82A9CAD1BFA676F00C736D4 /* EmployeeListTableViewController.m in Sources */,
 				B885F8C91BFA4D7600F89335 /* IBMEmployee.xcdatamodeld in Sources */,
 				B885F8C31BFA4D7600F89335 /* ViewController.m in Sources */,
 				B885F8C01BFA4D7600F89335 /* AppDelegate.m in Sources */,
 				B885F8BD1BFA4D7600F89335 /* main.m in Sources */,
+				B82A9CB21BFA911100C736D4 /* EmployeeListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
